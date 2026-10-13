@@ -7,42 +7,48 @@
     <title>Pesquisa SenaiTec</title>
 </head>
 <body>
-    <header>
-    <h1>Pesquisa SenaiTec</h1>
-    </header>
-    <section>
-        <form action="index.html" method="get">
-            <fieldset>
-                <legend>Dados Pessoais</legend>
-                <label for="">Nome:</label>
-            <input type="text" name="username" id="username" required>
-                <br>
-            <label for="userage">Idade</label>
-            <input type="number" name="userage" id="userage">
-
-
-                 <br>
-            <label for="userbirthdate">Data de nascimento</label>
-            <input type="date" name="userbirthdate" id="userbirthdate">
-
-                 <br>
-            <label for="useremail">Email</label>
-            <input type="email" name="usermemail" id="usermemail">
-
-             <br>
-            <label for="userphone">Telefone</label>
-            <input type="tel" name="userphone" id="userphone">
-            
-                 <br>
-            <label for="userimage">Upload da foto</label>
-            <input type="file" name="userimage" id="userimage">
+    <main>
+        <header>
+            <img src="./img/logo.png" alt="Logo do senaitec"
+            width="200px" height="200px">
+            <h1>Pesquisa SenaiTec</h1>
+        </header>
+        <section>
+            <form action="index.html" method="get">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="">Nome:</label>
+                    <input type="text" name="username" id="username" required>
+                    <br>
+                    <label for="userage">Idade</label>
+                    <input type="number" name="userage" id="userage" required min="12" max="100">
+                    
+                    
+                    <br>
+                    <label for="userbirthdate">Data de nascimento</label>
+                    <input type="date" name="userbirthdate" id="userbirthdate">
+                    
+                    <br>
+                    <label for="useremail">Email</label>
+                    <input type="email" name="usermemail" id="usermemail" required>
+                    
+                    <br>
+                    <label for="userphone">Telefone</label>
+                    <input type="tel" name="userphone" id="userphone" pattern="[0-9] {11}" placeholder="21987654321">
+                    
+                    <br>
+                    <label for="userimage">Upload da foto</label>
+                    <input type="file" name="userimage" id="userimage">
+                    
+                </fieldset>
                 
-            </fieldset>
+                
+                <button type="submit">Enviar</button>
+            </form>
             
-
-            <button type="submit">Enviar</button>
-        </form>
-
-    </section>
+        </section>
+        
+        
+    </main>
 </body>
 </html>
