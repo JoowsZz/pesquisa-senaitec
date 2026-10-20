@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png">
     <title>Pesquisa SenaiTec</title>
 </head>
 <body>
@@ -15,7 +16,9 @@
         </header>
         <section>
             <form action="index.html" method="get">
+                
                 <fieldset>
+
                     <legend>Dados Pessoais</legend>
                     <label for="">Nome:</label>
                     <input type="text" name="username" id="username" required>
@@ -41,8 +44,107 @@
                     <input type="file" name="userimage" id="userimage">
                     
                 </fieldset>
+
+                <fieldset>
+                <legend>Perfil</legend>    
+
+                    <p>Gênero</p>
                 
+                    
+                <input type="radio" name="usergender" id="usergender1" value="Masculino">
+                <label for="usergender">Masculino</label>
+                <br>
+
+                <input type="radio" name="usergender" id="usergender2" value="Feminino">
+                <label for="usergender">Feminino</label>
+                <br>
+
+                <input type="radio" name="usergender" id="usergender3" value="Prefiro não informar">
+                <label for="usergender">Prefiro não informar</label>
+                <br>
                 
+                <label for="usermaritalstatus">Estado Civil</label>
+                <select name="usermaritalstatus" id="usermaritalstatus">
+
+                    <option value="">Selecione...</option>
+                    <option value="solteiro">Solteiro(a)</option>   
+                    <option value="casado">Casado(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                   <option value="viuvo">Viúvo</option>
+                   <option value="uniaoestavel">União Estável</option>
+
+                </select> 
+                <br>
+
+                <label for="userstate">UF</label>
+                <select name="userstate" id="userstate">
+
+                  <option value="">Selecione...</option>
+                   <option value="AC">Acre</option>
+                   <option value="AL">Alagoas</option>
+                   <option value="AP">Amapá</option>
+                   <option value="AM">Amazonas</option>
+                   <option value="BA">Bahia</option>
+                   <option value="CE">Ceará</option>
+                   <option value="DF">Distrito Federal</option>
+                   <option value="ES">Espirito Santo</option>
+                   <option value="GO">Goiás</option>
+                   <option value="MA">Maranhão</option>
+                   <option value="MT">Mato Grosso</option>
+                   <option value="MS">Mato Grosso do Sul</option>
+                   <option value="MG">Minas Gerais</option>
+                   <option value="PA">Pará</option>
+                   <option value="PB">Paraíba</option>
+                   <option value="PR">Paraná</option>
+                   <option value="PE">Pernambuco</option>
+                   <option value="PI">Piauí</option>
+                   <option value="RJ">Rio de Janeiro</option>
+                   <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondonia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <br>
+
+                <label for="usercity">Cidade</label>
+                <input type="text" name="usercity" id="usercity" placeholder="Fortaleza">
+                
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hábitos</legend>
+                    <p>Redes sociais</p>
+                    <input type="checkbox" name="usersocial" id="usersocial1" value="instagram">
+                    <img src="./img/instagram-icon-logo-symbol-free-png.webp" alt="Instagramlogo" class="logo-social">
+                    <label for="usersocial1">Instagram</label>
+                    <br>
+                    <input type="checkbox" name="usersocial" id="usersocial2" value="facebook">
+                    <label for="usersocial2">Facebook</label>
+                    <br>
+                    <input type="checkbox" name="usersocial" id="usersocial3" value="tiktok">
+                    <label for="usersocial3">Tiktok</label>
+                <br>
+                    <label for="usermusicstyle">Estilo Músical</label>
+                    <input type="text" name="usermusicstyle" id="usermusicstyle" list="usermusicstyles">
+                    <datalist id="usermusicstyles">
+                        <option value="Rock"></option>
+                        <option value="Pop"></option>
+                        <option value="Sertanejo"></option>
+                        <option value="Funk"></option>
+                        <option value="Pagode"></option>
+                        <option value="Forró"></option>
+
+
+
+                    </datalist>
+                    <label for="userfavoritecolor">Cor favorita</label>
+                    <input type="text">
+
+                </fieldset>
                 <button type="submit">Enviar</button>
             </form>
             

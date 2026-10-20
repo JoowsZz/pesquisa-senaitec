@@ -35,10 +35,28 @@ legend {
     font-size: 20px;
     padding: 0 5px;
 }
-input {
+input,select {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #cccccc;
     border-radius: 5px;
+}
+input[type="radio"] {
+    width: auto ;
+}
+p{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+.logo-social {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin: 0 5px;
 }
