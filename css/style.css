@@ -18,7 +18,8 @@ main {
 header {
 text-align: center;
 margin: 20px;
-font-family: unbounded, cursive;
+font-family: bungee, cursive;
+
 }
 
 form {
@@ -74,3 +75,8 @@ textarea {
     min-height: 100px;
 }
 
+header h1 {
+    color: white;
+    -webkit-text-stroke: 1.0px black;
+    font-weight: 800px;
+}
