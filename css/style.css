@@ -53,6 +53,12 @@ p{
 input[type="checkbox"] {
     width: auto;
 }
+input[type="color"] {
+    width: 40px;
+    padding: 0 5px;
+}
+
+
 .logo-social {
     width: 18px;
     height: 18px;
@@ -60,3 +66,5 @@ input[type="checkbox"] {
     vertical-align: middle;
     margin: 0 5px;
 }
+
+

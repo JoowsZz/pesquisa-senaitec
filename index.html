@@ -50,7 +50,7 @@
 
                     <p>Gênero</p>
                 
-                    
+                    <!-- perguntando sobre genero -->
                 <input type="radio" name="usergender" id="usergender1" value="Masculino">
                 <label for="usergender">Masculino</label>
                 <br>
@@ -75,7 +75,7 @@
 
                 </select> 
                 <br>
-
+                <!-- pergunta sobre uf -->
                 <label for="userstate">UF</label>
                 <select name="userstate" id="userstate">
 
@@ -109,25 +109,29 @@
                     <option value="TO">Tocantins</option>
                 </select>
                 <br>
-
+                <!-- cidade -->
                 <label for="usercity">Cidade</label>
                 <input type="text" name="usercity" id="usercity" placeholder="Fortaleza">
                 
                 </fieldset>
 
+                <!-- habitos pessoais do usuario -->
                 <fieldset>
                     <legend>Hábitos</legend>
                     <p>Redes sociais</p>
                     <input type="checkbox" name="usersocial" id="usersocial1" value="instagram">
-                    <img src="./img/instagram-icon-logo-symbol-free-png.webp" alt="Instagramlogo" class="logo-social">
+                    <img src="./img/3.png" alt="Instagramlogo" class="logo-social">
                     <label for="usersocial1">Instagram</label>
                     <br>
                     <input type="checkbox" name="usersocial" id="usersocial2" value="facebook">
+                    <img src="./img/1.png" alt="facebooklogo" class="logo-social">
                     <label for="usersocial2">Facebook</label>
                     <br>
                     <input type="checkbox" name="usersocial" id="usersocial3" value="tiktok">
+                    <img src="./img/2.png" alt="tiktoklogo" class="logo-social">
                     <label for="usersocial3">Tiktok</label>
                 <br>
+                 <!-- estilo musical -->
                     <label for="usermusicstyle">Estilo Músical</label>
                     <input type="text" name="usermusicstyle" id="usermusicstyle" list="usermusicstyles">
                     <datalist id="usermusicstyles">
@@ -141,8 +145,10 @@
 
 
                     </datalist>
+                     <!--cor favorita-->
                     <label for="userfavoritecolor">Cor favorita</label>
-                    <input type="text">
+                    <input type="color" name="userfavoritecolor">
+                
 
                 </fieldset>
                 <button type="submit">Enviar</button>
