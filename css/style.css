@@ -6,7 +6,9 @@
 
 body {
 
-    background-color: rgb(231, 225, 225);
+    /* background-color: rgb(231, 225, 225); */
+    background-image: url('../img/fundocinza.jpg');
+   
 }
 main {
     width: 100%;
@@ -16,6 +18,8 @@ main {
 header {
 text-align: center;
 margin: 20px;
+font-family: bungee, cursive;
+
 }
 
 form {
@@ -23,6 +27,7 @@ form {
     padding: 15px;
     border-radius: 20px;
     margin-bottom: 100px;
+    font-family: unbounded, cursive;
 }
 fieldset {
     padding: 15px;
@@ -35,7 +40,7 @@ legend {
     font-size: 20px;
     padding: 0 5px;
 }
-input,select {
+input,select,textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -66,5 +71,12 @@ input[type="color"] {
     vertical-align: middle;
     margin: 0 5px;
 }
+textarea {
+    min-height: 100px;
+}
 
-
+header h1 {
+    color: white;
+    -webkit-text-stroke: 1.0px black;
+    font-weight: 800px;
+}
