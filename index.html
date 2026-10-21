@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
     <title>Pesquisa SenaiTec</title>
 </head>
 <body>
@@ -156,7 +159,11 @@
             
                 <fieldset>
                     <legend>Satisfação</legend>
-                    
+                    <!--radio name usersatisfaction -->
+                    <input type="range" name="usersatisfaction" id="usersatisfaction" min="0" max="10" step="1">
+                    <p>Nós ajude a melhorar! deixe seu comentário aqui 😊:</p>
+                    <label for="userfeedback"></label>
+                    <textarea name="userfeedback" id="userfeedback" cols="30" rows="10" placeholder="Digite seu feedback aqui..."></textarea>
                 </fieldset>
                 
                 <button type="submit">Enviar</button>
@@ -164,7 +171,7 @@
             
         </section>
         
-        for
+        
     </main>
 </body>
 </html>
