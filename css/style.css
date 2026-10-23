@@ -80,3 +80,47 @@ header h1 {
     -webkit-text-stroke: 1.0px black;
     font-weight: 800px;
 }
+
+input:invalid {
+    border-color: red;
+}
+input:hover
+{
+    background-color: #eee8e8;
+    transition: 0.3s;
+}
+textarea:hover
+{
+    background-color: #eee8e8;
+    transition: 0.3s;
+}
+input:valid
+{
+    border-color: rgb(92, 194, 92);
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: 2.0px solid #3a493a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: 2.0px solid #d32f2f;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #207523;
+    transition: 0.3s;
+}
+button[type="reset"]:hover {
+    background-color: #a51a1a;
+    transition: 0.3s;
+}
